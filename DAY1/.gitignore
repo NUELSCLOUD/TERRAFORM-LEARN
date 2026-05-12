@@ -1,0 +1,14 @@
+#==========================================
+# LIST OF FILES TO IGNORE BY GIT
+#==========================================
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+#==========================================
+# LIST OF FILES TO INCLUDE IN GIT
+#==========================================
+!main.tf
+!README.md
+!.gitignore
