@@ -1,0 +1,8 @@
+#=======================================
+# CREATE INPUT VARIABLES FOR ENVIRONMENT
+#=======================================
+variable "environment" {
+  description = "The environment name"
+  type        = string
+  default     = "nuel-dev"
+}
