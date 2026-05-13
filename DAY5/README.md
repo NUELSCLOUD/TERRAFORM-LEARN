@@ -22,7 +22,7 @@ The infrastructure created in this project includes:
 ```
 # Learning Objectives
 
-This project demonstrates my ability to reorganize my previous Terraform configuration into separate files (backend.tf, provider.tf, variables.tf, , main.tf, outputs.tf) as well as;
+This project demonstrates my ability to reorganize my previous Terraform configuration into separate files (backend.tf, provider.tf, variables.tf, , main.tf, outputs.tf) as well as understanding;
 
 - Infrastructure as Code (IaC)
 - Terraform workflow
