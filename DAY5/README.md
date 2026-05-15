@@ -73,14 +73,8 @@ This project demonstrates my ability to reorganize my previous Terraform configu
 
 
 
-# Author
+## Author
 
-## NWAMU C. EMMANUEL
+**NWAMU C. EMMANUEL**
 
 DevOps & Cloud Engineering Enthusiast
-
----
-
-# License
-
-This project is for educational and learning purposes.
