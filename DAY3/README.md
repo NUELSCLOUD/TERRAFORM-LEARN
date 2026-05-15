@@ -322,7 +322,8 @@ After completing this project, you should understand:
 * Terraform initialization workflow
 
 ---
+## Author
 
-# Author
+**NWAMU C. EMMANUEL**
 
-NWAMU C.EMMANUEL
+DevOps & Cloud Engineering Enthusiast
