@@ -18,3 +18,4 @@ terraform.tfvars
 !variables.tf
 !outputs.tf
 !backend.tf
+!local.tf
