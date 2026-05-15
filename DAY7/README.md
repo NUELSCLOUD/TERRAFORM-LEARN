@@ -13,11 +13,9 @@ This project implements Infrastructure as Code (IaC) to provision a standardized
 ## 🏗️ File Structure
 The infrastructure is modularized into several key files to ensure maintainability and separation of concerns:
 
-* **`main.tf`**: Contains the core resource definitions for AWS EC2 instances, security groups, and network rules. 
-* **`variable.tf`**: Centralizes all input variables, showcasing a wide range of Terraform data types (List, Set, Map, Tuple, Object).
-* **`terraform.tfvars`**: Defines environment-specific values (e.g., production instance counts) to keep configurations dynamic.
+* **`main.tf`**: Contains the core resource definitions for AWS S3 Bucket. 
+* **`variable.tf`**: Centralizes all input variables, showcasing a wide range of Terraform data types (List, Object).
 * **`providers.tf`**: Configures the required AWS provider and version constraints for consistency.
-* **`backend.tf`**: Implements a remote S3 backend with state locking to support team collaboration and prevent state corruption. 
 * **`.gitignore`**: .gitignore file tells Git which files and folders it should not track or upload to your GitHub repository.
 
 
