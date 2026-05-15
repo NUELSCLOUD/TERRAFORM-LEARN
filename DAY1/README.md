@@ -43,3 +43,9 @@ Write Terraform files → Run Terraform commands → Call AWS APIs through Terra
 1. I was able to provision terraform provider
 2. I was able to provision aws provider
 3. I was able to provision vpc resource.
+
+## Author
+
+**NWAMU C. EMMANUEL**
+
+DevOps & Cloud Engineering Enthusiast
