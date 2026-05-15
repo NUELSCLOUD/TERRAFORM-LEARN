@@ -34,7 +34,7 @@ The infrastructure is modularized into several key files to ensure maintainabili
 * **`providers.tf`**: Configures the required AWS provider and version constraints for consistency.
 * **`backend.tf`**: Implements a remote S3 backend with state locking to support team collaboration and prevent state corruption. 
 * **`.gitignore`**: .gitignore file tells Git which files and folders it should not track or upload to your GitHub repository.
-
+* **`README.md`**: documentation file that explains the project to anyone reading or using it.
 
 
 ## Requirements
