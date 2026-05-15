@@ -1,8 +1,8 @@
 <!-- BEGIN_TF_DOCS -->
-# AWS Infrastructure with Terraform: Standardized EC2 & VPC Security Deployment
+# AWS Infrastructure with Terraform: Standardized S3 Bucket Deployment
 
 ## 📋 Project Overview
-This project implements Infrastructure as Code (IaC) to provision a standardized AWS environment. It focuses on deploying a scalable EC2 web instance layer and a secure networking tier using Terraform. The project demonstrates advanced DevOps practices, including remote state management, strict variable typing, and security hardening.
+This project implements Infrastructure as Code (IaC) to provision a standardized AWS environment. It focuses on deploying AWS S3 Bucket using Terraform. The project demonstrates advanced DevOps practices.
 
 # Learning Objectives
 - Focuses on `count` vs `for_each` meta-arguments, dependency management via `depends_on`, and complex variable typing
@@ -17,6 +17,8 @@ The infrastructure is modularized into several key files to ensure maintainabili
 * **`variable.tf`**: Centralizes all input variables, showcasing a wide range of Terraform data types (List, Object).
 * **`providers.tf`**: Configures the required AWS provider and version constraints for consistency.
 * **`.gitignore`**: .gitignore file tells Git which files and folders it should not track or upload to your GitHub repository.
+* **`README.md`**: documentation file that explains the project to anyone reading or using it.
+
 
 
 ## Requirements
