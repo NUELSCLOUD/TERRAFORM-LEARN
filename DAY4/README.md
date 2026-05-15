@@ -498,6 +498,8 @@ After completing this project, you should understand:
 
 ---
 
-# Author
+## Author
 
-NWAMU C. EMMANUEL
+**NWAMU C. EMMANUEL**
+
+DevOps & Cloud Engineering Enthusiast
