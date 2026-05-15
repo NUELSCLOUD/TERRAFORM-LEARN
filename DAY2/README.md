@@ -34,3 +34,9 @@ No outputs.
 1. I was able to provision terraform provider
 2. I was able to provision aws provider
 3. I was able to provision S3 Bucket resource with tags.
+
+## Author
+
+**NWAMU C. EMMANUEL**
+
+DevOps & Cloud Engineering Enthusiast
