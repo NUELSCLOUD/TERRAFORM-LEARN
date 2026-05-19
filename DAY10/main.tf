@@ -59,8 +59,6 @@ resource "aws_s3_bucket" "storage" {
 # ============================================================================================
 # ASSIGNMENT 4: Security Group Port Configuration: Functions: split(), join(), for expression
 # ===========================================================================================
-# 
-# ==============================================================================
 
 # Create a VPC specifically for this assignment (independent of Assignment 2)
 resource "aws_vpc" "sg_vpc" {
