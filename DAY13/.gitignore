@@ -14,7 +14,6 @@ terraform.tfvars
 !main.tf
 !.gitignore
 !README.md
-!terraform.tfvars
 !variables.tf
 !outputs.tf
-!backend.tf
+!locals.tf
