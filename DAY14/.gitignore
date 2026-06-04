@@ -1,0 +1,22 @@
+#===============================================
+# FILES TO BE IGNORED BY GIT
+#===============================================
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+.terraform.lock.hcl
+.terraform
+*.pem
+
+#===============================================
+# FILES TO BE TRACKED BY GIT
+#===============================================
+!main.tf
+!.gitignore
+!README.md
+!variables.tf
+!outputs.tf
+!backend.tf
+!data.tf
+!locals.tf
