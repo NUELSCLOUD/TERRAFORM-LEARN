@@ -16,6 +16,7 @@
 !README.md
 !variables.tf
 !outputs.tf
-!backend.tf
 !data.tf
 !locals.tf
+!users.cv
+!providers.tf

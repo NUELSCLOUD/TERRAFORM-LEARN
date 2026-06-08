@@ -17,6 +17,6 @@ terraform.tfvars
 !README.md
 !variables.tf
 !outputs.tf
-!backend.tf
 !data.tf
 !locals.tf
+!providers.tf
