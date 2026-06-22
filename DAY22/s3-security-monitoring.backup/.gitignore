@@ -1,0 +1,9 @@
+#===============================================
+# FILES TO BE IGNORED BY GIT
+#===============================================
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+.terraform.lock.hcl
+.terraform
