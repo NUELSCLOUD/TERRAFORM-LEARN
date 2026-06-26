@@ -9,7 +9,12 @@ output "vpc_id" {
 #============================================
 # CREATE OUTPUT VARIABLES FOR S3 BUCKET NAME
 #============================================
-output "bucket_name" {
+output "bucket_name1" {
   description = "The name of the S3 bucket"
-  value       = aws_s3_bucket.bucket.bucket
+  value       = aws_s3_bucket.bucket1
+}
+
+output "bucket_name2" {
+  description = "The name of the S3 bucket"
+  value       = aws_s3_bucket.bucket2
 }
