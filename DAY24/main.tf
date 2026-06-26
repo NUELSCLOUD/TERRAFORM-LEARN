@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "bucket" {
   
   }
 }
-resource "aws_s3_bucket" "bucket" {
+resource "aws_s3_bucket" "bucket2" {
   bucket = "${var.environment}-bucket2"
   tags = {
     Name = "${var.environment}-bucket2"
