@@ -1,10 +1,10 @@
 #=======================================
 # CREATE S3 BUCKET RESOURCE
 #=======================================
-resource "aws_s3_bucket" "bucket" {
-  bucket = "${var.environment}-bucket"
+resource "aws_s3_bucket" "bucket1" {
+  bucket = "${var.environment}-bucket1"
   tags = {
-    Name = "${var.environment}-bucket"
+    Name = "${var.environment}-bucket1"
     Environment = var.environment
     region = "us-east-1"
   
@@ -19,6 +19,7 @@ resource "aws_s3_bucket" "bucket2" {
   
   }
 }
-resource "aws_vpc" "main" {
+resource "aws_vpc" "selected" {
   cidr_block = "10.0.0.0/16"
+
 }
