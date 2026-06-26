@@ -19,3 +19,6 @@ resource "aws_s3_bucket" "bucket2" {
   
   }
 }
+resource "aws_vpc" "main" {
+  id = data.aws_vpc.selected.id
+}

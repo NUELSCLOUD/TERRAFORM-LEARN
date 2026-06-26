@@ -7,4 +7,8 @@ variable "environment" {
   default     = "nuel-dev"
 }
 # variable for vpc
-variable "vpc_id" {}
+variable "vpc_id" {
+  description = "The vpc id to deploy resources"
+  type        = string 
+  default     = ""
+}
