@@ -6,3 +6,5 @@ variable "environment" {
   type        = string
   default     = "nuel-dev"
 }
+# variable for vpc
+variable "vpc_id" {}
