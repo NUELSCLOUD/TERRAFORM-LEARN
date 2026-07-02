@@ -1,6 +1,6 @@
 <!-- BEGIN_TF_DOCS -->
 ## Project
- TERRAFORM AWS IAM USER MANAGEMENT MINI PROJECT
+ TERRAFORM AWS IAM USER MANAGEMENT MINI PROJECT.
 
 ## Overview
 This demo demonstrates how to manage AWS IAM users, groups, and group memberships using Terraform and a CSV file as the data source.
