@@ -44,14 +44,6 @@ resource "aws_iam_group" "education" {
   path = "/groups/"
   
 }
-# ====================================================
-# CREATE RESOURCE FOR AWS IAM GROUP POLICY ATTACHMENT
-# ====================================================
-
-resource "aws_iam_group_policy_attachment" "test-attach" {
-  group      = aws_iam_group.education.name
-  policy_arn = "arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
-}
 
 resource "aws_iam_group" "managers" {
   name = "Managers"
@@ -62,6 +54,15 @@ resource "aws_iam_group" "engineers" {
   name = "Engineers"
   path = "/groups/"
 }
+# ====================================================
+# CREATE RESOURCE FOR AWS IAM GROUP POLICY ATTACHMENT
+# ====================================================
+
+resource "aws_iam_group_policy_attachment" "test-attach" {
+  group      = aws_iam_group.education.name
+  policy_arn = "arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
+}
+
 
 
 # ==============================================
