@@ -36,7 +36,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./DAY25/code/**
+        working-directory: ./DAY25/code
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -165,7 +165,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./DAY25/code/**
+        working-directory: ./DAY25/code
 
     steps:
       - name: Checkout
