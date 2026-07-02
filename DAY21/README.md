@@ -1,4 +1,4 @@
-# RDS Database -(Mini Project)
+# RDS Database -(Mini Project).
 
 ## Overview
 
