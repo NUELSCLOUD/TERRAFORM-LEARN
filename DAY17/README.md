@@ -1,4 +1,4 @@
-# Simple Image Processor - Backend Only
+# Simple Image Processor with lambda- Backend Only
 
 A simplified serverless image processing pipeline that automatically processes images uploaded to S3.
 
