@@ -1,6 +1,6 @@
 <!-- BEGIN_TF_DOCS -->
 
-# AWS Infrastructure with Terraform: Terraform Dynamic Blocks, Conditional Expressions, and Splat Expressions
+# AWS Infrastructure with Terraform: Terraform Dynamic Blocks, Conditional Expressions, and Splat Expressions.
 
 ## 📋 Project Overview
 This project implements the use of;
