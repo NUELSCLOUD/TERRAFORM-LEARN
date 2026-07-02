@@ -1,1 +1,1 @@
-# Day 24: Terraform Cloud and Workspaces
+# : Harshicorp Cloud Platform and Workspaces
