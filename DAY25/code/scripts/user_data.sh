@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Update the package repository
+# Update the package repository.
 apt-get update -y
 
 # Install necessary packages
