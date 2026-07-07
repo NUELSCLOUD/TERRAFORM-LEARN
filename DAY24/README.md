@@ -1,4 +1,4 @@
-# : Harshicorp Cloud Platform and Workspaces
+# : Harshicorp Cloud Platform and Workspaces.
 HCP Terraform is a managed cloud platform that helps teams use Terraform without having to run everything from their local machine.
 With regular Terraform CLI, you run commands like:
 
