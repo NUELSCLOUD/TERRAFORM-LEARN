@@ -2,10 +2,11 @@
 # CREATE PROVIDER CONFIGURATION FOR TERRAFORM USING HCP
 #========================================================
 terraform {
+  # required_version = "1.15.7"
 
   cloud {
     
-    organization = "NUELCLOUD"
+    organization = "NUELCLOUD-DEVOPS"
 
     workspaces {
       name = "TERRAFORM-LEARN"
@@ -17,8 +18,9 @@ terraform {
       version = "~> 6.0"
     }
   }
-  
 }
+  
+
 
 #=======================================
 # CREATE AWS PROVIDER CONFIGURATION
